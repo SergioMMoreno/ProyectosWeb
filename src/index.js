@@ -19,5 +19,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // listen the server
 app.listen(app.get('puerto'), () =>{
-    console.log('server on en el puerto', 'puerto');
+    console.log('server on en el puerto', '3000');
 });
