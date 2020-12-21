@@ -25,3 +25,30 @@ img{
     width: 100%;
     height: auto;
 }
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.551);
+}
+
+/* Tienda */
+
+.item-image{
+    max-width:100%;
+    width:auto;
+    height:auto
+}
+
+.shopping-cart-image{
+    max-width:25%;
+    width:auto;
+    height:auto
+}
+.buttonDelete{
+    width: 50px;
+    margin-left: 0.5em;
+    font-family: monospace;
+    font-size: large;
+}

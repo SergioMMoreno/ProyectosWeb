@@ -3,7 +3,6 @@ const { join } = require('path');
 const app = express();
 const path = require('path');
 
-
 // settings
 app.set('puerto', 3000); // puerto
 app.set('views', path.join(__dirname, 'views')); // ruta
