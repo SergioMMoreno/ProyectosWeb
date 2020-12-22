@@ -9,8 +9,6 @@ addToShoppingCartButtons.forEach(addToCartButton => {
 const comprarButton = document.querySelector('.comprarButton');
 comprarButton.addEventListener('click', comprarButtonClicked);
 
-
-
 const shoppingCartItemsContainer = document.querySelector('.shoppingCartItemsContainer');
 
 function addToCartClicked(event) {
